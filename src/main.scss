@@ -1,0 +1,28 @@
+#scoped-plugin {
+
+    text-align: center;
+
+    svg {
+        display: block;
+        margin: 0 auto;
+    }
+
+    h1 {
+        color: #0071C1;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        color: blue;
+    }
+
+    h3 {
+        color: purple;
+    }
+
+    .line {
+        fill: none;
+        stroke: steelblue;
+        stroke-width: 2px;
+    }
+}
