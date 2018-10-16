@@ -3,6 +3,7 @@ import * as d3 from 'd3';
 
 (function () {
 
+    /* All HTML should be rendered in JavaScript and scoped to the predefined ID */
     const global = document.getElementById('scoped-plugin');
 
     const heading = document.createElement("h1");
@@ -14,7 +15,7 @@ import * as d3 from 'd3';
 
     global.appendChild(heading);
 
-
+    /* Simple D3 example */
     const data = [
         {
             date: '1-May-12',
